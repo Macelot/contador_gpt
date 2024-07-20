@@ -21,6 +21,7 @@ source ./venv/bin/activate
 ```
 pip install ultralytics opencv-python
 ```
-python3 treino.py
 
-python3 main.py
+```
+python3 treino.py
+```
