@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 10
+names: ['Bus', 'Motorcyecle', 'Pickup', 'SUV', 'Sedan', 'Suv', 'TRUCK', 'TUCK', 'Truck', 'Van']
+
+roboflow:
+  workspace: cc-pintel
+  project: car-counting
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/cc-pintel/car-counting/dataset/1
